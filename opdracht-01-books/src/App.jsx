@@ -1,11 +1,15 @@
 import './App.css'
+import Header from './components/header'
+import Layout from './components/layout'
+import Booklist from './components/Booklist'
 
 function App() {
-
   return (
-    <>
-      <h1>Opdracht 1 - Books</h1>
-    </>
+    
+    <Layout>
+      <Header/>
+      <Booklist/>
+    </Layout>
   )
 }
 
