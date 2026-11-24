@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/header'
 import Layout from './components/layout'
 import Booklist from './components/Booklist'
+import Book from './components/Book'
 
 function App() {
   return (
