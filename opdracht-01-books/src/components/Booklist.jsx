@@ -10,7 +10,7 @@ const Booklist = () => {
 
   const [aantalKeerGelezen, setAantalKeerGelezen] = useState(0)
 
-  function verhoogTeller(books){
+  function verhoogTeller(){
     setAantalKeerGelezen(aantalKeerGelezen + 1)
   }
 
